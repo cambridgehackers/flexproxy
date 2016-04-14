@@ -1,0 +1,9 @@
+To use this flexlm proxy
+
+- Compile this sofware
+- Create a configuration directory containting flexproxy.conf and hosts
+- Change hosts file according to your config, the syntax is similar 
+  to /etc/hosts  (<IP address> <hostname> [hostname1 ...])
+- Change /etc/hosts on your machines in order to direct all requests
+  to the server running the proxy server OR change the server line in the
+  license file and make it point to your FlexLM Proxy server
